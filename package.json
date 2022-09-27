@@ -1,0 +1,24 @@
+{
+  "name": "ko-engineering-interview",
+  "version": "1.0.0",
+  "description": "KnownOrigin Node.js Engineering Tech Test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knownorigin/ko-engineering-interview.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knownorigin/ko-engineering-interview/issues"
+  },
+  "homepage": "https://github.com/knownorigin/ko-engineering-interview#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
