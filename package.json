@@ -20,5 +20,9 @@
   "homepage": "https://github.com/knownorigin/ko-engineering-interview#readme",
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "engines": {
+    "node": ">=14",
+    "npm": ">=6"
   }
 }
