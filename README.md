@@ -9,14 +9,14 @@
 
 ## Prerequisites
 
-* Node.js >=14
-* npm >=6
+* Node.js >=18
+* npm >=8
 * Suitable development environment with access to the internet
 
 ## Getting Started
 
 * Install dependencies: `npm install`
-* To run the src/index.ts file: `npm start`
+* To run the src/index.ts file: `npm start`, this will start a watch server.
 * The solution has come preinstalled with TypeScript and Jest, if you are more familiar with JavaScript, feel free to rename the files.
 
 ## Notes
