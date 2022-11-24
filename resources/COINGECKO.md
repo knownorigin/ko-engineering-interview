@@ -2,8 +2,7 @@
 
 ## Description
 
-We work in crypto, and heavily use 3rd party APIs so I would like you to retrieve some crypto
-data from a 3rd party.
+We work in crypto, and heavily use 3rd party APIs so we would like you to retrieve some crypto data from a 3rd party.
 
 e.g., an example of the bitcoin price can be seen here -
 https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin
