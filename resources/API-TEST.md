@@ -7,29 +7,27 @@ user data in a performant and scalable manner.
 
 ## Exercise
 
-Using the API below, load all user posts and then decorate them with the appropriate user
-data.
+Using the endpoints on this API https://jsonplaceholder.typicode.com/ to do the following:
 
-1. Retrieve post data API: https://jsonplaceholder.typicode.com/posts
-   * GET a list of users posts
+1. Retrieve post data API:
+    * GET an array of posts
 
-2. Retrieve user data API: https://jsonplaceholder.typicode.com/users/{userId}
-   * GET a specific users data
+2. Retrieve user data API:
+    * GET a specific users data (UserId: 3)
 
-3. Once you have these, combine the data!
+3. Combine the data:
+    * Attach an array of relevant posts (Posts[]) to the user object
+    * Return an object in this format, {...user, posts: [...posts]}
 
-4. Group the data you have fetched by the user ID
-
-5. If you've got this far then implement some tests
-
-Write an implementation for the above with some test coverage.
+4. Testing:
+    * If you haven't already, implement some tests for your code
 
 ## Notes
 
 Things we're looking for:
 
 * Talk us through what you’re doing and the decisions you’re making, it’s OK to think
-out loud.
+  out loud.
 * A focus on clean, testable code.
 * Implement or highlight any optimisations you have identified.
 * Write tests for your implementation.
